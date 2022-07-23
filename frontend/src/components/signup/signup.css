@@ -1,0 +1,68 @@
+.signup h4{
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+form {
+    padding: 50px 0;
+}
+form input{
+    padding: 5px;
+    border: 1px solid #d3d3d38c;
+
+}
+form input:focus{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+form input[type="submit"] {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: bisque;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+form label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: black;
+    position: relative;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+span.icon {
+    position: absolute;
+    top: 27px;
+    right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.form-input.hideshow {
+    position: relative;
+}
+input::placeholder {
+    color: #bbb8b8;
+    font-size: 10px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,5 @@
+.update input[type="submit"] {
+    margin: 0;
+    background: black;
+    color: white;
+}

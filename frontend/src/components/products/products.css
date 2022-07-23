@@ -1,0 +1,75 @@
+.product-wrappr table{
+    width: 100%;
+    text-align: center;
+}
+
+.product-wrappr {
+    padding: 50px 0;
+}
+
+
+h2 {
+    padding-bottom: 20px;
+    font-family: 'Lato';
+    color: brown;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+button.delete {
+    background: #e10404;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+button.update{
+    background: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+span.price {
+    color: red;
+    font-weight: bold;
+}
+
+
+.searchinput{
+
+    text-align: center;
+}
+.searchinput input[type="text"] {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    color: blue;
+}
+.searchinput input:focus{
+
+    outline: none;
+    border: 1px solid brown;
+}
+.searchinput input::placeholder {
+        color: #646262;
+      
+}
+
+
+h1{
+    color: red;
+}
+td {
+    text-transform: capitalize;
+}

@@ -1,0 +1,46 @@
+header {
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: 60px;
+    align-items: center;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar ul li{
+    padding: 0 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.navbar ul li a{
+    color: #3F8EFC;
+}
+
+.navbar ul li a.active {
+    color: #ff0707;
+}
+
+
+span.username {
+    color: crimson;
+    font-weight: bold;
+}
